@@ -143,28 +143,28 @@ try:
 
         while i < rc:
             if i == 0:
-                print("\t\t\tPlayer Vs Computer")
-            print("\t",u_list[i],"Vs",c_list[i],"---->",res[i])
+                print("\tPlayer Vs Computer")
+            print(u_list[i],"Vs",c_list[i],"---->",res[i])
             i += 1
 
         print('''--------------------------------------------\n''')
         print("<#------Final Result------#>")
 
         if c_score>u_score:
-            print("\tComputer's Score =",c_score)
-            print("\tYour Score =",u_score)
-            print("\tTies =",tie)
-            print("\tSorry, You Lost :(")
+            print("Computer's Score =",c_score)
+            print("Your Score =",u_score)
+            print("Ties =",tie)
+            print("Sorry, You Lost :(")
         elif c_score<u_score:
-            print("\tComputer's Score =", c_score)
-            print("\tYour Score =", u_score)
-            print("\tTies =", tie)
-            print(f"\tCongratulations!,{name} You Won :)")
+            print("Computer's Score =", c_score)
+            print("Your Score =", u_score)
+            print("Ties =", tie)
+            print(f"Congratulations!,{name} You Won :)")
         elif c_score == u_score:
-            print("\tComputer's Score =", c_score)
-            print("\tYour Score =", u_score)
-            print("\tTies =", tie)
-            print("\tit's a tie :}")
+            print("Computer's Score =", c_score)
+            print("Your Score =", u_score)
+            print("Ties =", tie)
+            print("it's a tie :}")
         print('''--------------------------------------------''')
 
         print("\nDo You Want to Play Again y/n:")
